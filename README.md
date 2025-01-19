@@ -1,36 +1,59 @@
 # Wobb Portal App
 
-This is a modern **React.js** application developed using **Vite** as the build tool. The Wobb Portal app provides a user interface for managing campaigns, with features such as dynamic content display, a responsive header, mobile-friendly navigation, and much more.
+# A React-based web app built with Vite for managing campaigns with dynamic filtering, responsive design, and modular components.
 
----
+# Getting Started
 
-## Features
+# 1. Clone the repository
+git clone https://github.com/yourusername/ajay-chaudhari01001-wobb-portal-app.git
 
-- **Fast Development Build**: Vite provides fast builds and hot module reloading (HMR).
-- **Responsive Design**: Fully responsive for mobile, tablet, and desktop devices.
-- **React Router**: Navigation between pages (e.g., Home, Message) using React Router.
-- **Dynamic Campaign Cards**: Display dynamic content related to campaigns, including brand name, payout information, and progress.
-- **Mobile Hamburger Menu**: A collapsible menu for small screens.
-- **Styling**: Use of CSS for styling the components with responsive design in mind.
+# 2. Navigate to the project directory
+cd ajay-chaudhari01001-wobb-portal-app
 
----
+# 3. Install dependencies
+npm install
+# or
+yarn install
 
-## Technologies Used
+# 4. Start the development server
+npm run dev
+# or
+yarn dev
 
-- **React.js**: JavaScript library for building user interfaces.
-- **Vite**: Fast build tool for modern web apps.
-- **React Router**: For handling navigation and routing between components.
-- **CSS**: Global styling and component-specific styles.
-- **ESLint & Prettier**: For code quality and consistency.
+# 5. Production build (optional)
+npm run build
+# or
+yarn build
 
----
+# The app runs at http://localhost:3000
 
-## Getting Started
+# Folder Structure
 
-### 1. Clone the Repository
+ajay-chaudhari01001-wobb-portal-app/
+├── README.md              # Documentation
+├── eslint.config.js       # ESLint configuration
+├── index.html             # Main HTML file
+├── package.json           # Project metadata
+├── vite.config.js         # Vite configuration
+├── public/                # Public assets
+└── src/                   # Source files
+    ├── App.css            # Global styles
+    ├── App.jsx            # Root component
+    ├── main.jsx           # Entry point
+    ├── assets/            # Images & static assets
+    ├── components/        # Reusable components
+    │   ├── campaignCard/  # CampaignCard (brand, description, progress)
+    │   ├── filterSection/ # Filters campaigns by categories
+    │   ├── footer/        # Footer component
+    │   └── header/        # Header with nav links
+    ├── data/              # JSON data files (e.g., campaigns)
+    └── pages/             # App pages (Home, Message)
 
-Start by cloning the repository to your local machine:
+# Key Features
+- Dynamic campaign filtering & management.
+- Responsive design with reusable components.
+- Fast builds with Vite (HMR supported).
+- Routing handled by React Router.
+- Linting with ESLint for consistent code.
 
-```bash
-git clone https://github.com/yourusername/wobb-portal-app.git
-```
+# End of README

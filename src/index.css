@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", serif;
+  scroll-behavior: smooth;
+  background-color: var(--background-color);
+}
+
+/* declare colors root variables for use globally all over components */
+:root {
+  --card-padding: 1rem;
+  --card-border-radius: 0.5rem;
+  --font-size-small: 1rem;
+  --font-size-medium: 1.2rem;
+  --font-size-large: 1.5rem;
+  --primary-color: #000000;
+  --secondary-color: #156EF4;
+  --background-color: #FFFFFF;
+  --progress-bar-bg: #eeeeee;
+  --progress-bar-fill: #4caf50;
+  --logo-color: #101457;
+  --status-color: #ff5757;
+
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* reusable classes */
+.container {
+  max-width: 98vw;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

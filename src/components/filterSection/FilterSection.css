@@ -1,0 +1,63 @@
+/* Filter Section Container */
+.filter-section {
+    display: flex;
+    gap: 1rem;
+    margin-block: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of buttons */
+    scrollbar-width: thin; /* For Firefox */
+}
+
+.filter-section::-webkit-scrollbar {
+    height: 6px; /* Custom scrollbar height */
+}
+
+.filter-section::-webkit-scrollbar-thumb {
+    background-color: var(--logo-color); /* Customize the scrollbar thumb */
+    border-radius: 4px;
+}
+
+.filter-section::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Customize the scrollbar track */
+}
+
+/* Filter Button */
+.filter-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.5rem;
+    background: transparent;
+    border: 1px solid var(--logo-color);
+    color: var(--logo-color);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+    flex-shrink: 0; 
+}
+
+.filter-button:hover {
+    background-color: var(--logo-color);
+    color: #ffffff;
+}
+
+.filter-button.active {
+    border-radius: 0px;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    border-color: var(--secondary-color);
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .filter-section {
+        justify-content: flex-start; /* Align buttons to the left */
+        padding: 0 0.5rem;
+    }
+
+    .filter-button {
+        font-size: 0.9rem; /* Slightly smaller font for mobile */
+    }
+}

@@ -1,0 +1,25 @@
+/* Message Component Styles */
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    height: 100vh;
+    /* Full screen height */
+    background-color: #f9f9f9;
+    /* Optional: Light background */
+}
+
+.no-message-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.no-message-text {
+    font-size: 1.5rem;
+    color: #666;
+    font-weight: 500;
+}

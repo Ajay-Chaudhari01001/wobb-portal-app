@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "brand": "Wear the Era (1968)",
+        "description": "Get barter worth up to ₹1000 for 1 reel.",
+        "payout": 1096,
+        "type": "Applied",
+        "image": "https://picsum.photos/id/840/200/300?&blur=2",
+        "progress": 0.1,
+        "hired": 3,
+        "total": 30
+    },
+    {
+        "id": 2,
+        "brand": "Fashion Fiesta",
+        "description": "Promote our new summer collection and earn ₹1500.",
+        "payout": 1500,
+        "type": "Hired",
+        "image": "https://picsum.photos/id/444/200/300?&blur=2",
+        "progress": 0.5,
+        "hired": 15,
+        "total": 30
+    },
+    {
+        "id": 3,
+        "brand": "Gadget Mania",
+        "description": "Review the latest gadgets and get ₹2000.",
+        "payout": 2000,
+        "type": "Closed",
+        "image": "https://picsum.photos/id/820/200/300?&blur=2",
+        "progress": 1,
+        "hired": 30,
+        "total": 30
+    },
+    {
+        "id": 4,
+        "brand": "Healthy Snacks",
+        "description": "Share your healthy lifestyle with our products for ₹1200.",
+        "payout": 1200,
+        "type": "Applied",
+        "image": "https://picsum.photos/id/810/200/300?&blur=2",
+        "progress": 0.25,
+        "hired": 5,
+        "total": 20
+    },
+    {
+        "id": 5,
+        "brand": "Luxury Looks",
+        "description": "Showcase our luxury clothing line and earn ₹5000.",
+        "payout": 5000,
+        "type": "Hired",
+        "image": "https://picsum.photos/id/870/200/300?&blur=2",
+        "progress": 0.6,
+        "hired": 18,
+        "total": 30
+    },
+    {
+        "id": 6,
+        "brand": "Eco-Friendly Goods",
+        "description": "Promote sustainable products and earn ₹800.",
+        "payout": 800,
+        "type": "Applied",
+        "image": "https://picsum.photos/id/890/200/300?&blur=2",
+        "progress": 0.15,
+        "hired": 6,
+        "total": 40
+    },
+    {
+        "id": 7,
+        "brand": "Tech Trends",
+        "description": "Launch the latest tech gadgets for ₹2500.",
+        "payout": 2500,
+        "type": "Closed",
+        "image": "https://picsum.photos/id/430/200/300?&blur=2",
+        "progress": 1,
+        "hired": 40,
+        "total": 40
+    },
+    {
+        "id": 8,
+        "brand": "Food Delights",
+        "description": "Taste and promote exotic dishes for ₹700.",
+        "payout": 700,
+        "type": "Applied",
+        "image": "https://picsum.photos/id/220/200/300?&blur=2",
+        "progress": 0.4,
+        "hired": 8,
+        "total": 20
+    },
+    {
+        "id": 9,
+        "brand": "Fitness Frenzy",
+        "description": "Collaborate with us to promote fitness gear for ₹2200.",
+        "payout": 2200,
+        "type": "Hired",
+        "image": "https://picsum.photos/id/370/200/300?&blur=2",
+        "progress": 0.75,
+        "hired": 30,
+        "total": 40
+    },
+    {
+        "id": 10,
+        "brand": "Beauty Bliss",
+        "description": "Review and showcase our beauty products for ₹1300.",
+        "payout": 1300,
+        "type": "Applied",
+        "image": "https://picsum.photos/id/500/200/300?&blur=2",
+        "progress": 0.2,
+        "hired": 4,
+        "total": 20
+    }
+]
